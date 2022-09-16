@@ -5,24 +5,53 @@
   <version>0.0.1-SNAPSHOT</version>
   
   
-  <dependencies>
+ <properties>
+  <selenium.version>4.3.0</selenium.version>
+  <webdrivermanager>3.8.1</webdrivermanager>
+  <cucumber.version>7.2.3</cucumber.version>
+  </properties>
   
- <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+  
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.3.0</version>
+    <version>${selenium.version}</version>
 </dependency>
  
 <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
-    <version>3.8.1</version>
+    <version>${webdrivermanager}</version>
+</dependency>
+
+ 
+ <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>${cucumber.version}</version>
+</dependency>
+ 
+ <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>${cucumber.version}</version>
+    <scope>test</scope>
+</dependency>
+ 
+ <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>${cucumber.version}</version>
 </dependency>
   
   
-  </dependencies>
   
+ </dependencies>
   
 </project>
