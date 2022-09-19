@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 video call feature release
+<<<<<<< HEAD
 =======
 video call feature release
 bug fix by ArunRaja
@@ -7,3 +8,8 @@ bug fix by ArunRaja
 
 current release feature
 
+=======
+bug fix by ArunRaja
+
+bug fix 2 by ArunRaja
+>>>>>>> ponmani
